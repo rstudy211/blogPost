@@ -1,0 +1,32 @@
+*{margin:0;/* padding: 0px; */box-sizing:border-box;/* font-family:'Poppins',sans-serif; */}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.form-container {
+    padding: 30px;
+}
+
+body{height:100vh;/* background: linear-gradient(red,blue); */background: #1488CC;  /* fallback for old browsers */background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+h2{
+    text-align: center;
+    background: #171717;
+    color: white;
+    height: 58px;
+    padding-top: 10px;
+    width: 100%;
+}
+table{
+    margin: 0;
+    margin-left: 145px;
+    align-items: center;
+    padding: 50px;
+    color: mintcream;
+    font-family: 'Caveat', cursive;
+}
+table label{
+    font-size:25px
+}
